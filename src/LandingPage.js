@@ -37,15 +37,32 @@ function LandingPage() {
         <LandingPageHeader />
         <div className="section section-about-us">
           <Container>
+            
+              <div
+                    className="background-image"
+                    style={{
+                      backgroundImage:
+                        "url(" + require("./assets/img/logotitle.png") + ")"
+                    }}
+                  ></div>
+                  
             <Row>
-              <h2 className="ml-auto mr-auto text-center" md="8">
+                            <h2 className="ml-auto mr-auto text-center" md="8">
                 Try our image detection app.</h2>
             </Row>
             <Row style={{justifyContent: "center"}}>
+              
                 <App />
                 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
             </Row>
             <Row>
+            <Row><div
+                    className="image-container"
+                    style={{
+                      backgroundImage:
+                        "url(" + require("./assets/img/logotitle.png") + ")"
+                    }}
+                  ></div></Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who are we?</h2>
                 <h5 className="description">
@@ -63,7 +80,7 @@ function LandingPage() {
                     className="image-container image-left"
                     style={{
                       backgroundImage:
-                        "url(" + require("./assets/img/login.jpg") + ")"
+                        "url(" + require("./assets/img/floodbg4.JPEG") + ")"
                     }}
                   >
                     <p className="blockquote blockquote-info">
@@ -76,7 +93,7 @@ function LandingPage() {
                     className="image-container"
                     style={{
                       backgroundImage:
-                        "url(" + require("./assets/img/bg3.jpg") + ")"
+                        "url(" + require("./assets/img/floodbg3.JPEG") + ")"
                     }}
                   ></div>
                 </Col>
@@ -85,7 +102,7 @@ function LandingPage() {
                     className="image-container image-right"
                     style={{
                       backgroundImage:
-                        "url(" + require("./assets/img/bg1.jpg") + ")"
+                        "url(" + require("./assets/img/floodbg1.JPEG") + ")"
                     }}
                   ></div>
                   <h3>
@@ -93,33 +110,27 @@ function LandingPage() {
                     smart, fast and easy.
                   </h3>
                   <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
+                  When a flood hits your home, you lose everything you own. 
+                  Your walls, your floor, every piece of soft furnishing: it all must 
+                  be thrown out. There is an unquantifiable burden on the homeowner to
+                   restore their property and possessions. We get that, We want to help.
+
                   </p>
                   <p>
-                    For a start, it does not automatically follow that a record
-                    amount of ice will melt this summer. More important for
-                    determining the size of the annual thaw is the state of the
-                    weather as the midnight sun approaches and temperatures
-                    rise. But over the more than 30 years of satellite records,
-                    scientists have observed a clear pattern of decline,
-                    decade-by-decade.
+                  Our app is designed to enable flood victims to catalogue the damaged
+                   contents of their home, link them into the recovery services they need, 
+                   and offer a meaningful contribution in taking their homes back.
+                   It’s as simple as, you take an image or video of your room, drawer, or object,
+                    and object detection will pick up everything it can. For anything that’s missed, 
+                    you can input this in manually. This list is sent straight to your loss adjuster
+                    on day 1, so you know your recovery is underway.
+
+
                   </p>
                   <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
+                    We want to get rid of that waiting period post-flood, and let you take your
+                    recovery into your own hands. We give you all the tools you need to be independent,
+                    when you need it. 
                   </p>
                 </Col>
               </Row>
